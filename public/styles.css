@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    --main-color: #0071CE;
+    --dark-blue: #338EC7;
+    --mid-blue: #7AB8E4;
+    --light-blue: #AADDFF;
+    --white-blue:#E1EDF9;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-emphasis: none;
+}
+
+p {
+    width: 25rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+.sign-up {
+    background-image: linear-gradient(to right, rgba(0, 113, 206, .8), rgba(225, 237, 249, .9)), url('/img/alpha-bg.png');
+}
+
+.container {
+    width: 100%;
+    padding: 1.2rem 8rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-blue);
+    height: 50%;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 8px 29px 7px rgba(0,113,206,0.3); 
+    box-shadow: 0px 8px 29px 7px rgba(0,113,206,0.3);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.input {
+    border: none;
+    margin: 1rem;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    border-bottom: 1px solid lightslategrey;
+    font-size: 1rem;
+    width: 70%;
+    
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: var(--dark-blue);
+    color: var(--white-blue);
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#logo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#logo-w-quote {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--dark-blue);
+}
+
+.left {
+    margin: 0 auto;
+}
+
+.right {
+    background-image: linear-gradient(to right,rgba(51, 142, 199, .8), rgba(170, 221, 255, .8)), url('/img/people.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.talcast-iframe {
+    width: 50vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+#webcast-logo {
+    width: 30%;
+    height: auto;
+}
