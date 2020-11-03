@@ -26,16 +26,6 @@ app.get('/', (req,res) =>{
     res.render('index')
 })
 
-app.post('/' , (req,res) =>{
-    console.log(req.body.fname)
-   res.render('webcast', {
-       fname : req.body.fname,
-       lname: req.body.lname,
-       email: req.body.email
-   })
-   
-})
-
 app.get('/webcast', (req,res) =>{
     let fname = req.query.fname;
     let lname = req.query.lname;
