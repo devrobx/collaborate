@@ -144,3 +144,9 @@ header {
     width: 30%;
     height: auto;
 }
+
+@media only screen and (max-width: 790px) {
+    .right {
+        display: none;
+    }
+}
