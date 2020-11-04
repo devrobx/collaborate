@@ -20,8 +20,6 @@ async function addUserToTalcast(fname,lname,email){
 
 async function addUserToCollaborate(body){
 
-    console.log(`in function : ${body}`)
-
     try {
         let response =  await axios.put('https://collaborate.tallen-inc.com/api/2/mango/user_invitee', body, {
             headers : {
