@@ -28,6 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
     text-emphasis: none;
+    text-decoration: none;
 }
 
 p {
@@ -37,12 +38,39 @@ p {
     margin-top: 2rem;
 }
 
+ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+   
+
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: var(--white-blue);
+  
+    transition: .2s;
+}
+.nav-item:hover {
+ background-color: var(--mid-blue);
+ cursor: pointer;
+}
+
+
 textarea:focus, input:focus, button:focus{
     outline: none;
 }
 
 .sign-up {
-    background-image: linear-gradient(to right, rgba(0, 113, 206, .8), rgba(225, 237, 249, .9)), url('/img/alpha-bg.png');
+    background-image: linear-gradient(to right, rgba(0, 113, 206, .8), rgba(225, 237, 249, .9)), url('/img/team.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
@@ -127,10 +155,12 @@ textarea:focus, input:focus, button:focus{
     
 }
 
-.talcast-iframe {
+.talcast-iframe, .collaborate-iframe {
     width: 100vw;
     height: 100vh;
 }
+
+
 
 header {
     display: flex;
