@@ -20,3 +20,5 @@ GENERAL KNOWLEDGE
 NOTE :
 
 There were no sessions pre-scheduled for this project so i create 3 session for collaborate with id's 1134,1135,1136. I hard coded id 1134 for this project but in a real life scenario, the user would have received an email invite with the event id for when they log in and they would input that into the log in screen. Also,  the log in screen adds the user as participant. You have log in as a moderator provided in the project description in order for the webcast to start for registered user. Lastly, I decided to go with the tab view so you can toggle back in forth between both webcast so each could take up the whole screen. 
+
+For talcast, no matter what first and last name you input, you will be welcomed as Mango. I didnt know how to change that.
