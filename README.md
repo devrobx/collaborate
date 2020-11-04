@@ -1,11 +1,14 @@
-WHAT YOU NEED TO RUN CODE
+WHAT YOU NEED TO RUN APP
 
 1. node js installation on local computer
 2. text editor of choice (e.g Visual Studio Code or Sublime)
+3. clone repository to your local
+4. run command 'npm install' in terminal
 
+RUN APPLICATION
+1. npm start
 
-INSTALL DEPENDECIES
-1. npm install
+Live Demo: https://collaborate-app1.herokuapp.com/
 
 GENERAL KNOWLEDGE
 
